@@ -16,7 +16,7 @@ fn main() {
     let provider: reth_provider::DatabaseProvider<Tx<RO>> = factory.provider().unwrap();
 
     let hash =
-        TxHash::from_str("0xe2e9fd898d91d0d18e83058cdc20a2021f3c36d13f9e1c345975f24572190ad3")
+        TxHash::from_str("0x4ebd87bd156d95ccfd256b9e63badb6b6c368685f9ef9dac4595fc7b4059150b")
             .unwrap();
 
     // tx works
